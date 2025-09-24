@@ -11,7 +11,7 @@
     <h1>Grāmatu Vērtēšana</h1>
     <div class="div_center">
         <div>
-            <form>
+            <form action="submit_form.php" method="post">
                 <label for="name">Vārds: </label>
                 <input type="text" id="name" name="name" placeholder="Jūsu Vārds">
 
@@ -34,6 +34,8 @@
 
                 <label for="desc">Grāmatas Apraksts: </label><br>
                 <textarea id="desc" name="desc" placeholder="Apraksts..." wrap="soft"></textarea>
+
+                <input type="submit" title="Submit">
             </form>
         </div>
 
