@@ -1,0 +1,29 @@
+.div_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 600px;
+
+    input {
+        width: 50%;
+        margin: 2vh 25% 2vh 25%;
+    };
+
+    label {
+        font-weight: bold;
+        margin: 2vh 25% 2vh 25%;
+    }
+
+    textarea {
+        margin: 2vh 25% 2vh 25%;
+        width: 50%;
+        height: 4vh;
+    }
+
+    select {
+        margin: 2vh 25% 2vh 25%;
+    }
+}
